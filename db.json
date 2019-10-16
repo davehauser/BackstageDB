@@ -1,50 +1,87 @@
 {
-  "songs": [
-    {
-      "id": 1,
-      "titles": [
-        { "text": "Lied 1", "lang": "de", "isMainTitle": true },
-        { "text": "Song 1", "lang": "en" },
-        { "text": "Chanson 1", "lang": "fr" }
-      ],
-      "rights": {
-        "text": { "id": 1, "name": "Sam Scott" },
-        "music": { "id": 2, "name": "Sam Scott" },
-        "copyright": "© Copyright Owner 2020"
-      },
-      "files": [
-      {
-        "id": 1,
-        "name": "Noten (C-Dur)",
-        "type": "sheet",
-        "uploadedBy": { "id": 1, "name": "Dave Hauser" },
-        "supportedFileTypes": ["png", "pdf"],
-        "notes": "Notes on this file"
-      },
-      "blocks": [
-        { "type": "Verse 1", "text": "Text of verse 1" },
-        { "type": "Chorus", "text": "Text of the chorus" },
-        { "type": "Verse 2", "text": "Text of verse 2" }
-      ],
-      "sequences": [
-        {
-          "name": "Sequence 1",
-          "description": "A description for sequence 1",
-          "items": [
-            { "type": "Refrain" },
-            { "type": "Verse 1"},
-            { "type": "Refrain" },
-            { "type": "Verse 2" },
-            { "type": "Refrain", "isInstrumental": true },
-            { "type": "Refrain", "times": 2 },
-            { "type": "Refrain", "comments": "acapella" }
-          ]
-        }
-      ],
-      "notes": [
-        "Standard key is D major. With singer A, we play it in E major",
-        "Is suitable as instrumental"
-      ]
-    },
-  ]
+	"songs": [{
+		"id": 1,
+		"titles": [{
+				"text": "Lied 1",
+				"lang": "de",
+				"isMainTitle": true
+			},
+			{
+				"text": "Song 1",
+				"lang": "en"
+			},
+			{
+				"text": "Chanson 1",
+				"lang": "fr"
+			}
+		],
+		"rights": {
+			"text": {
+				"id": 1,
+				"name": "Sam Scott"
+			},
+			"music": {
+				"id": 2,
+				"name": "Sam Scott"
+			},
+			"copyright": "© Copyright Owner 2020"
+		},
+		"files": [{
+			"id": 1,
+			"name": "Noten (C-Dur)",
+			"type": "sheet",
+			"uploadedBy": {
+				"id": 1,
+				"name": "Dave Hauser"
+			},
+			"supportedFileTypes": ["png", "pdf"],
+			"notes": "Notes on this file"
+		}],
+		"blocks": [{
+				"type": "Verse 1",
+				"text": "Text of verse 1"
+			},
+			{
+				"type": "Chorus",
+				"text": "Text of the chorus"
+			},
+			{
+				"type": "Verse 2",
+				"text": "Text of verse 2"
+			}
+		],
+		"sequences": [{
+			"name": "Sequence 1",
+			"description": "A description for sequence 1",
+			"items": [{
+					"type": "Refrain"
+				},
+				{
+					"type": "Verse 1"
+				},
+				{
+					"type": "Refrain"
+				},
+				{
+					"type": "Verse 2"
+				},
+				{
+					"type": "Refrain",
+					"isInstrumental": true
+				},
+				{
+					"type": "Refrain",
+					"times": 2
+				},
+				{
+					"type": "Refrain",
+					"comments": "acapella"
+				}
+			]
+		}],
+		"notes": [
+			"Standard key is D major. With singer A, we play it in E major",
+			"Is suitable as instrumental"
+		]
+	}]
 }
