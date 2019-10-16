@@ -1,87 +1,305 @@
 {
 	"songs": [{
-		"id": 1,
-		"titles": [{
-				"text": "Lied 1",
-				"lang": "de",
-				"isMainTitle": true
-			},
-			{
-				"text": "Song 1",
-				"lang": "en"
-			},
-			{
-				"text": "Chanson 1",
-				"lang": "fr"
-			}
-		],
-		"rights": {
-			"text": {
-				"id": 1,
-				"name": "Sam Scott"
-			},
-			"music": {
-				"id": 2,
-				"name": "Sam Scott"
-			},
-			"copyright": "© Copyright Owner 2020"
-		},
-		"files": [{
 			"id": 1,
-			"name": "Noten (C-Dur)",
-			"type": "sheet",
-			"uploadedBy": {
-				"id": 1,
-				"name": "Dave Hauser"
-			},
-			"supportedFileTypes": ["png", "pdf"],
-			"notes": "Notes on this file"
-		}],
-		"blocks": [{
-				"type": "Verse 1",
-				"text": "Text of verse 1"
-			},
-			{
-				"type": "Chorus",
-				"text": "Text of the chorus"
-			},
-			{
-				"type": "Verse 2",
-				"text": "Text of verse 2"
-			}
-		],
-		"sequences": [{
-			"name": "Sequence 1",
-			"description": "A description for sequence 1",
-			"items": [{
-					"type": "Refrain"
+			"titles": [{
+					"text": "Lied 1",
+					"lang": "de",
+					"isMainTitle": true
 				},
 				{
-					"type": "Verse 1"
+					"text": "Song 1",
+					"lang": "en"
 				},
 				{
-					"type": "Refrain"
-				},
-				{
-					"type": "Verse 2"
-				},
-				{
-					"type": "Refrain",
-					"isInstrumental": true
-				},
-				{
-					"type": "Refrain",
-					"times": 2
-				},
-				{
-					"type": "Refrain",
-					"comments": "acapella"
+					"text": "Chanson 1",
+					"lang": "fr"
 				}
+			],
+			"rights": {
+				"text": [{
+					"id": 1,
+					"name": "Author 1"
+				}],
+				"music": [{
+						"id": 1,
+						"name": "Author 1"
+					},
+					{
+						"id": 2,
+						"name": "Author 2"
+					}
+				],
+				"copyright": "© Copyright Owner 2020"
+			},
+			"files": [{
+				"id": 1,
+				"name": "Sheet (C major)",
+				"type": "sheet",
+				"uploadedBy": {
+					"id": 1,
+					"name": "Dave Hauser"
+				},
+				"supportedFileTypes": ["png", "pdf"],
+				"notes": "Notes on this file"
+			}],
+			"blocks": [{
+					"type": "Verse 1",
+					"text": "Text of verse 1"
+				},
+				{
+					"type": "Chorus",
+					"text": "Text of the chorus"
+				},
+				{
+					"type": "Verse 2",
+					"text": "Text of verse 2"
+				},
+				{
+					"type": "Bridge",
+					"text": "Text of Bridge"
+				}
+			],
+			"sequences": [{
+				"name": "Sequence 1",
+				"description": "A description for sequence 1",
+				"items": [{
+						"type": "Refrain"
+					},
+					{
+						"type": "Verse 1"
+					},
+					{
+						"type": "Refrain"
+					},
+					{
+						"type": "Bridge",
+						"times": 2
+					},
+					{
+						"type": "Verse 2"
+					},
+					{
+						"type": "Refrain",
+						"times": 2
+					}
+				]
+			}]
+		},
+		{
+			"id": 2,
+			"titles": [{
+				"text": "Song 2",
+				"lang": "en"
+			}],
+			"rights": {
+				"text": [{
+						"id": 5,
+						"name": "Author 5"
+					},
+					{
+						"id": 3,
+						"name": "Author 3"
+					}
+				],
+				"music": [{
+					"id": 6,
+					"name": "Author 6"
+				}],
+				"copyright": "© Copyright Owner 2021"
+			},
+			"files": [{
+				"id": 1,
+				"name": "Sheet (E major)",
+				"type": "sheet",
+				"uploadedBy": {
+					"id": 3,
+					"name": "Person 3"
+				},
+				"supportedFileTypes": ["jpg", "pdf"],
+				"notes": "Notes on this file"
+			}],
+			"blocks": [{
+					"type": "Verse",
+					"text": "Text of verse"
+				},
+				{
+					"type": "Chorus",
+					"text": "Text of the chorus"
+				}
+			],
+			"sequences": [{
+				"name": "Sequence 1",
+				"description": "A description for sequence 1",
+				"items": [{
+						"type": "Refrain"
+					},
+					{
+						"type": "Verse"
+					},
+					{
+						"type": "Refrain",
+						"times": 2
+					},
+					{
+						"type": "Verse"
+					},
+					{
+						"type": "Refrain",
+						"times": 2
+					},
+					{
+						"type": "Refrain",
+						"isInstrumental": true
+					}
+				]
+			}],
+			"notes": [
+				"Very popular, should play in every occasion"
 			]
-		}],
-		"notes": [
-			"Standard key is D major. With singer A, we play it in E major",
-			"Is suitable as instrumental"
-		]
-	}]
+		},
+		{
+			"id": 3,
+			"titles": [{
+					"text": "Lied 3",
+					"lang": "de",
+					"isMainTitle": true
+				},
+				{
+					"text": "Song 3",
+					"lang": "en"
+				},
+				{
+					"text": "Chanson 3",
+					"lang": "fr"
+				}
+			],
+			"rights": {
+				"text": [{
+					"id": 1,
+					"name": "Author 1"
+				}],
+				"music": [{
+						"id": 1,
+						"name": "Author 1"
+					},
+					{
+						"id": 2,
+						"name": "Author 2"
+					}
+				],
+				"copyright": "© Copyright Owner 2020"
+			},
+			"files": [{
+				"id": 1,
+				"name": "Noten (C-Dur)",
+				"type": "sheet",
+				"uploadedBy": {
+					"id": 1,
+					"name": "Dave Hauser"
+				},
+				"supportedFileTypes": ["png", "pdf"],
+				"notes": "Notes on this file"
+			}],
+			"blocks": [{
+					"type": "Verse 1",
+					"text": "Text of verse 1"
+				},
+				{
+					"type": "Chorus",
+					"text": "Text of the chorus"
+				},
+				{
+					"type": "Verse 2",
+					"text": "Text of verse 2"
+				}
+			],
+			"sequences": [{
+				"name": "Sequence 1",
+				"description": "A description for sequence 1",
+				"items": [{
+						"type": "Refrain"
+					},
+					{
+						"type": "Verse 1"
+					},
+					{
+						"type": "Refrain"
+					},
+					{
+						"type": "Verse 2"
+					},
+					{
+						"type": "Refrain",
+						"isInstrumental": true
+					},
+					{
+						"type": "Refrain",
+						"times": 2
+					},
+					{
+						"type": "Refrain",
+						"comments": "acapella"
+					}
+				]
+			}],
+			"notes": [
+				"Standard key is D major. With singer A, we play it in E major",
+				"Is suitable as instrumental"
+			]
+		}
+	],
+	"people": [{
+			"firstName": "Anna",
+			"lastName": "Dobelli",
+			"email": "3214@example.org",
+			"phone": "012 345 67 89",
+			"avatar": "/img/01.png",
+			"teams": ["Band", "Apero"],
+			"functions": ["Musiker", "Pfarrer"]
+		},
+		{
+			"firstName": "Bertold",
+			"lastName": "Cupci",
+			"email": "21431@example.org",
+			"phone": "123 456 78 90",
+			"avatar": "/img/02.png",
+			"teams": ["Apero"]
+		},
+		{
+			"firstName": "Catherine",
+			"lastName": "Bravo",
+			"email": "4321@example.org",
+			"phone": "234 567 89 01",
+			"avatar": "/img/03.png",
+			"functions": ["Pfarrer"]
+		},
+		{
+			"firstName": "Dorian",
+			"lastName": "Aarens",
+			"email": "1432@example.org",
+			"phone": "234 567 89 01",
+			"avatar": "/img/04.png",
+			"teams": ["Band"],
+			"functions": ["Musiker", "Sigrist", "Präsentation"]
+		}
+	],
+	"events": [{
+			"name": "Event 1",
+			"startDate": "2020-01-01 10:00",
+			"endDate": "2020-01-01 11:00",
+			"description": "Description of event 1"
+		},
+		{
+			"name": "Event 2",
+			"startDate": "2020-02-01 10:00",
+			"endDate": "2020-02-01 11:00",
+			"description": "Description of event 2"
+		},
+		{
+			"name": "Event 3",
+			"startDate": "2020-03-01 10:00",
+			"endDate": "2020-03-01 11:00",
+			"description": "Description of event 3"
+		}
+	]
 }
